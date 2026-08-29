@@ -1,0 +1,30 @@
+```
+# Rust-specific ignores
+target/
+Cargo.lock
+
+# Build artifacts
+**/*.d
+**/*.rlib
+**/*.rmeta
+**/*.so
+**/deps/
+**/incremental/
+**/build/
+
+# Cargo build cache
+**/.cargo-artifact-lock
+**/.cargo-build-lock
+**/.cargo-lock
+**/.fingerprint/
+
+# Temporary files
+**/*.tmp
+**/*.temp
+**/*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+```
